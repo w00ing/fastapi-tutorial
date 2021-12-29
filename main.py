@@ -11,3 +11,8 @@ def index():
 @app.get('/about')
 def about():
     return {'data': 'about page'}
+
+
+@app.get('/post')
+def get_posts():
+    return {'data': {'title': 'title'}}
