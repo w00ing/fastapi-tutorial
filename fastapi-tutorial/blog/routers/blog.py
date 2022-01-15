@@ -4,7 +4,7 @@ from typing import List
 
 
 from .. import schemas, database, oauth2
-from ..repository import blog
+from blog.repository import blog
 
 router = APIRouter(
     prefix="/blog",

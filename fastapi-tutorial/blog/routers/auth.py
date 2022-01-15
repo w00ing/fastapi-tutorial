@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 from starlette.status import HTTP_404_NOT_FOUND
 
 
-from ..hashing import Hash
+from blog.hashing import Hash
 from .. import database, models, token
 
 router = APIRouter(
